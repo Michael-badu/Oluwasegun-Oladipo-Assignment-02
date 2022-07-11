@@ -15,7 +15,6 @@ const assignment = {};
  */
 function sumOfNumbers(arrayOfNumbers) {
    let sum = 0;
-
   for (let i = 0; i < arrayOfNumbers.length; i +=1)
     sum += arrayOfNumbers[i];
 
@@ -60,12 +59,12 @@ var count = 0;
     if (arrayOfNumbers[i] % 2 == 0){
     count++;
     }
+    
   }
     return count;
 };
   
-console.log(countEvenNumbers([17,
-        0,
+console.log(countEvenNumbers([17,0,
         67,
         41,
         49,
