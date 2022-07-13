@@ -18,29 +18,9 @@ function sumOfNumbers(arrayOfNumbers) {
   for (let i = 0; i < arrayOfNumbers.length; i +=1)
     sum += arrayOfNumbers[i];
 
-  
     return sum;
 }
-console.log(sumOfNumbers[68,
-        -68,
-        27,
-        94,
-        72,
-        -25,
-        -51,
-        32,
-        10,
-        64,
-        -94,
-        4,
-        34,
-        -86,
-        90,
-        81,
-        20,
-        -56,
-        -91,
-        -50])
+console.log(sumOfNumbers[68, -68, 27, 94, 72, -25, -51, 32, 10, 64, -94, 4, 34, -86, 90, 81, 20, -56, -91, -50])
 assignment.sumOfNumbers = sumOfNumbers;
 
 /**
@@ -59,30 +39,11 @@ var count = 0;
     if (arrayOfNumbers[i] % 2 == 0){
     count++;
     }
-    
   }
     return count;
 };
   
-console.log(countEvenNumbers([17,0,
-        67,
-        41,
-        49,
-        21,
-        1,
-        86,
-        76,
-        2,
-        54,
-        14,
-        93,
-        84,
-        14,
-        77,
-        35,
-        7,
-        29,
-        64]))
+console.log(countEvenNumbers([17, 0, 67, 41, 49, 21, 1, 86, 76, 2, 54, 14, 93, 84, 14, 77, 35, 7, 29, 64]))
 assignment.countEvenNumbers = countEvenNumbers;
 
 // /**
